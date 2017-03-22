@@ -17,6 +17,13 @@ body {
 	background-color:#333;
 }
 
+#hnav h3 {
+	max-width:300px;
+	padding-left:200px;
+	float:left;
+	color:white;
+}
+
 #hnav ol {
 	max-width:1050px;
 	list-style-type:none;
@@ -60,6 +67,40 @@ td, th {
 
 tr:nth-child(even) {
 	background-color:#8fd8d8;
+}
+
+.displayContainer {
+	position: relative;
+	top: 0px;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+.buttonLeft, .buttonRight {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	background-color: Transparent;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.buttonRight {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.buttonLeft:hover, .buttonRight:hover {
+	background-color: #008B8B;
 }
 
 #description{

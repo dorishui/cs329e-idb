@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Game Review Library</title>
+		<title>Video Game Library</title>
 		<link href="style.css" rel="STYLESHEET" type="text/css" />
 	</head>
 
@@ -10,21 +10,52 @@
 		<div id="mainContainer">
 
 			<div id="hnav">
+				<h3>Video Game Library</h3>
 				<ol>
 					<li><a class="active" href="index.html">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="titles.html">Titles</a></li>
-					<li><a href="genres.html">Genres</a></li>
-					<li><a href="ratings.html">Ratings</a></li>
+					<li><a href="titles.html">Games</a></li>
+					<li><a href="genres.html">Platforms</a></li>
+					<li><a href="ratings.html">Developers</a></li>
 				</ol>
 			</div>
-
-			<div id="banner">
-				<img src="images/logo.png" alt="Game Review Library Logo" id="logoID"/>
-			</div>
-
 		</div>
 
-		<p>Example text</p>
+		<div class="displayContainer">
+			<div class="mySlides">
+				<img src="images/child-of-light.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="images/Borderlands_2.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="images/FTL.jpg" style="width:100%">
+			</div>
+
+			<button class="buttonLeft" onClick="plusDivs(-1)">&#10094;</button>
+			<button class="buttonRight" onClick="plusDivs(1)">&#10095;</button>
+		</div>
+
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex-1].style.display = "block";
+		}
+		</script>
+
+		<p></p>
 	</body>
 </html>
