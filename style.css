@@ -139,3 +139,48 @@ tr:nth-child(even) {
 #description td {
 	word-break: break-all;
 }
+
+#about picture{
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+#about .Bella{
+	height: 200px;
+	width: 200px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+#about table{
+	table-layout: fixed;
+	float: right;
+	display: inline-block;
+	font-family:arial, Sans-Serif;
+	border-collapse:collapse;
+}
+
+#about .BellaTable{
+	padding-top: 50px;
+	max-width: 900px;
+	padding-right: 100px;
+}
+
+#about .StatTable{
+	max-width: 900px;
+	padding-right: 100px;
+}
+
+#about th{
+	border: none;
+	outline: none;
+	background-color:#FFFFFF;
+}
+
+#about td {
+	border: none;
+	outline: none;
+	word-break: break-all;
+}
