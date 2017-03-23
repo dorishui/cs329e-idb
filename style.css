@@ -12,25 +12,30 @@ body {
 	width:100%;
 }
 
+#banner {
+	float:center; 
+	background-image:url("images/banner.jpg");
+	height:150px;
+}
 
 #hnav {
 	background-color:#333;
 }
 
-#hnav h3 {
-	max-width:300px;
-	padding-left:200px;
-	float:left;
-	color:white;
-}
-
 #hnav ol {
-	max-width:1050px;
+	max-width:1200px;
 	list-style-type:none;
 	padding:0;
 	margin:auto;
 	overflow:hidden;
 	background-color:#333;
+}
+
+#hnav #main {
+	float:left;
+	display:inline;
+	text-align:center;
+	font-weight:bold;
 }
 
 #hnav ol li {
@@ -42,6 +47,7 @@ body {
 #hnav ol li a {
 	display:block;
 	color:white;
+	font-size:18px;
 	text-align:center;
 	padding:14px 16px;
 	text-decoration:none;
@@ -49,6 +55,14 @@ body {
 
 #hnav ol li a:hover {
 	background-color:#008B8B;
+}
+
+#id {
+	padding-top:50px;
+}
+
+#data {
+	padding-top:50px;
 }
 
 table {
