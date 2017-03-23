@@ -147,12 +147,20 @@ tr:nth-child(even) {
 	object-fit: contain;
 }
 
-#about .Bella{
+#about .first_about{
 	height: 200px;
 	width: 200px;
 	padding-left: 100px;
 	padding-top: 50px;
 }
+
+#about .next_about{
+	height: 200px;
+	width: 200px;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
 
 #about table{
 	table-layout: fixed;
@@ -162,12 +170,16 @@ tr:nth-child(even) {
 	border-collapse:collapse;
 }
 
-#about .BellaTable{
+#about .firstTable{
 	padding-top: 50px;
 	max-width: 900px;
 	padding-right: 100px;
 }
-
+#about .nextTable{
+	padding-top: 25px;
+	max-width: 900px;
+	padding-right: 100px;
+}
 #about .StatTable{
 	max-width: 900px;
 	padding-right: 100px;
