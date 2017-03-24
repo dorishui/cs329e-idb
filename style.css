@@ -186,7 +186,7 @@ tr:nth-child(even) {
 
 #about table{
 	table-layout: fixed;
-	float: right;
+	float: center;
 	display: inline-block;
 	font-family:arial, Sans-Serif;
 	border-collapse:collapse;
@@ -204,7 +204,7 @@ tr:nth-child(even) {
 }
 #about .StatTable{
 	max-width: 1200px;
-	padding-right: 100px;
+	
 }
 
 #about th{
