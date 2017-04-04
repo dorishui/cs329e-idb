@@ -2,29 +2,41 @@
 
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>About</title>
-		<link href="style.css" rel="STYLESHEET" type="text/css" />
+		<!-- Bootstrap core CSS -->
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="style.css" rel="STYLESHEET" type="text/css">
 	</head>
 
 	<body>
+			<div id="banner"></div>
+			<div class="masthead clearfix" style="position: absolute">
+				<div class="inner">
+					<nav>
+						<h3 class="masthead-brand"><a href="index.html">Video Game Library</a></h3>
+						<ul class = "nav masthead-nav">
+							<li class = "active"><a href="about.html">About</a></li>
+							<li><a href="developers.html">Developers</a></li>
+							<li><a href="platforms.html">Platforms</a></li>
+							<li><a href="games.html">Games</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 
-		<div id="banner"></div>
 
-		<div id="hnav">
-			<ol>
-				<li><a href="about.html">About</a></li>
-				<li><a href="developers.html">Developers</a></li>
-				<li><a href="platforms.html">Platforms</a></li>
-				<li><a href="games.html">Games</a></li>
-				<li id="main"><a href="index.html">Video Game Library</a></li>
-			</ol>
-		</div>
-
-		<div id="about">
-			<h1 align = "center"> ABOUT US </h1>
-			<div id="description">
-				<img src="images/Bella.jpg" alt="Bella" id = "picture" class = "first_about"/>
-				<table class="firstTable">
+			<div class="container">
+			<div class="lead"> ABOUT US </div>
+			<table>
+				<tr>
+				<td><img src="images/Bella.jpg" alt="Bella" id = "picture" width="250px"></td>
+				<td>
+				<table>
 					<tr>
 						<th> Name: </th>
 						<td> Bella Shah </td>
@@ -38,14 +50,18 @@
 						<td> Responsibilities included creating 3 instances of each model(9 HTML pages) in HTML and CSS and writing about the tools and introduction of the technical report. </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 7 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
-			<div id="description">
-				<img src="images/Doris.jpg" alt="Doris" id = "picture" class = "next_about"/>
-				<table class="nextTable">
+				</td>
+			</table>
+
+				<table>
+					<tr>
+					<td><img src="images/Doris.jpg" alt="Doris" id = "picture" width="250px"></td>
+					<td>
+					<table>
 					<tr>
 						<th> Name: </th>
 						<td> Doris Hui </td>
@@ -59,14 +75,17 @@
 						<td> Responsibilities included setting up the project respository and Slack, tracking progress of GitHub issues, assisting with HTML and CSS syntax, and creating and formatting the technical report on GitHub Wiki. </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 2 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
-			<div id="description">
-				<img src="images/Juan.jpg" alt="Juan" id = "picture" class = "next_about"/>
-				<table class="nextTable">
+			</table>
+
+				<table>
+					<tr>
+					<td><img src="images/Juan.jpg" alt="Juan" id = "picture" width="250px"></td>
+					<td>
+					<table>
 					<tr>
 						<th> Name: </th>
 						<td> Juan Ramos </td>
@@ -80,14 +99,17 @@
 						<td> Responsibilities included initial setup and structure of the website, design and structure of the pillars, and overall design of the website. </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 8 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
-			<div id="description">
-				<img src="images/Hyunjoo.jpg" alt="Hyunjoo" id = "picture" class = "next_about"/>
-				<table class="nextTable">
+			</table>
+
+				<table>
+					<tr>
+					<td><img src="images/Hyunjoo.jpg" alt="Hyunjoo" id = "picture" width = "250px"></td>
+					<td>
+					<table>
 					<tr>
 						<th> Name: </th>
 						<td> Hyun Joo Song </td>
@@ -101,14 +123,17 @@
 						<td> Responsibilities included making Splash page and setting up the technical reports and editting the About page. </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 2 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
-			<div id="description">
-				<img src="images/Ananya.png" alt="Ananya" id = "picture" class = "next_about"/>
-				<table class="nextTable">
+			</table>
+
+				<table>
+					<tr>
+					<td><img src="images/Ananya.png" alt="Ananya" id = "picture" width="250px"></td>
+					<td>
+					<table>
 					<tr>
 						<th> Name: </th>
 						<td> Ananya Kaushik </td>
@@ -122,14 +147,17 @@
 						<td> Responsibilities included making splash page and data model in the report.  </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 1 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
-			<div id="description">
-				<img src="images/Nolan.jpg" alt="Nolan" id = "picture" class = "next_about"/>
-				<table class="nextTable">
+			</table>
+
+				<table>
+					<tr>
+					<td><img src="images/Nolan.jpg" alt="Nolan" id = "picture" width="250px"></td>
+					<td>
+					<table>
 					<tr>
 						<th> Name: </th>
 						<td> Nolan Bentley </td>
@@ -143,15 +171,16 @@
 						<td> Responsibilities included providing HTML structure and the philosophy of our pillars.  </td>
 					<tr>
 					<tr>
-						<th> # of commits </th>
+						<th> # of commits: </th>
 						<td> 1 </td>
-					<tr>
+					</tr>
 				</table>
-			</div>
+			</table>
 
-			<h2 align = "center"> STATS </h2>
-			<div id="description">
-				<table  class = "StatTable">
+			<br>
+
+			<div class="lead"> STATS </div>
+				<table>
 					<tr>
 						<th> Total # of Commits: </th>
 						<td> 22 </td>
@@ -171,9 +200,9 @@
 					<tr>
 						<th> GitHub Wiki: </th>
 						<td><a href="https://github.com/dorishui/cs329e-idb/wiki">https://github.com/dorishui/cs329e-idb/wiki</a></td>
-					<tr>
+					</tr>
 				</table>
+
 			</div>
-		</div>
 	</body>
 </html>

@@ -2,62 +2,78 @@
 
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Video Game Library</title>
-		<link href="style.css" rel="STYLESHEET" type="text/css" />
+		<!-- Bootstrap core CSS -->
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="style.css" rel="STYLESHEET" type="text/css">
 	</head>
 
 	<body>
-		<div id="mainContainer">
-
+		<div class="site-wrapper">
+		<div class="mainContainer">
 			<div id="banner"></div>
-
-			<div id="hnav">
-				<ol>
-					<li><a href="about.html">About</a></li>
-					<li><a href="developers.html">Developers</a></li>
-					<li><a href="platforms.html">Platforms</a></li>
-					<li><a href="games.html">Games</a></li>
-					<li id="main"><a href="index.html">Video Game Library</a></li>
-				</ol>
+			<div class="masthead clearfix" style="position: absolute">
+				<div class="inner">
+					<nav>
+						<h3 class="masthead-brand"><a href="index.html">Video Game Library</a></h3>
+						<ul class = "nav masthead-nav">
+							<li class = "active"><a href="about.html">About</a></li>
+							<li><a href="developers.html">Developers</a></li>
+							<li><a href="platforms.html">Platforms</a></li>
+							<li><a href="games.html">Games</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-			
+		</div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	        <li data-target="#myCarousel" data-slide-to="2"></li>
+	      </ol>
+	      <div class="carousel-inner" role="listbox">
+	        <div class="item active">
+	          <img class="first-slide" src="images/child-of-light.jpg" alt="First slide">
+	        </div>
+	        <div class="item">
+	          <img class="second-slide" src="images/Borderlands_2.jpg" alt="Second slide">
+	        </div>
+	        <div class="item">
+	          <img class="third-slide" src="images/FTL.jpg" alt="Third slide">
+	        </div>
+	      </div>
+	      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	      </a>
+	      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	      </a>
+	    </div>
 		</div>
 
-		<div class="displayContainer">
-			<div class="mySlides">
-				<img src="images/child-of-light.jpg" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<img src="images/Borderlands_2.jpg" style="width:100%">
-			</div>
-			<div class="mySlides">
-				<img src="images/FTL.jpg" style="width:100%">
-			</div>
+		
 
-			<button class="buttonLeft" onClick="plusDivs(-1)">&#10094;</button>
-			<button class="buttonRight" onClick="plusDivs(1)">&#10095;</button>
-		</div>
-
-		<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-			showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			if (n > x.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = x.length}
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			x[slideIndex-1].style.display = "block";
-		}
-		</script>
-
-		<p></p>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<script src="../../dist/js/bootstrap.min.js"></script>
+		<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+		<script src="../../assets/js/vendor/holder.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	</body>
 </html>
