@@ -11,6 +11,11 @@
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 		<link href="style.css" rel="STYLESHEET" type="text/css">
+		<!-- theme file for data tables -->
+		<link rel="stylesheet" href="http://mottie.github.io/tablesorter/css/theme.metro-dark.css">
+		<!-- load jQuery and tablesorter scripts -->
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="http://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
 	</head>
 
 	<body>
@@ -31,55 +36,65 @@
 
 		<!-- tdis is what you need to finish. I added Smash as a reference point. Just add more rows and we're good -->
 		<div id="data">
-			<table>
-				<!-- tr stands for table row -->
-				<tr>
-					<!-- tdese are tde headings for tde table. Change tdese when you create tde rest of tde files -->
-					<th>Image</th>
-					<th>Title</th>
-					<th>Developer</th>
-					<th>Platform</th>
-					<th>Genre</th>
-					<th>Rating</th>
+			<table id="myTable" class="tablesorter-metro-dark" style="max-width:1200px;margin:auto;">
+				<thead>
+					<!-- tr stands for table row -->
+					<tr>
+						<!-- tdese are tde headings for tde table. Change tdese when you create tde rest of tde files -->
+						<th>Image</th>
+						<th>Title</th>
+						<th>Developer</th>
+						<th>Platform</th>
+						<th>Genre</th>
+						<th>Rating</th>
 
-				</tr>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- tde next code block is exactly how you will add more data points to tde table.
+					Just follow tde code exactly as it is -->
+					<tr>
+						<td><a href="borderlands2.html"><img src="images/b2_small.jpg" height="120" width="130"></a></td>
+						<td>Borderlands 2</td>
+						<td>Gearbox Software</td>
+						<td>Xbox 360</td>
+						<td>Shooter</td>
+						<td>9</td>
+					</tr>
 
-				<!-- tde next code block is exactly how you will add more data points to tde table.
-				Just follow tde code exactly as it is -->
-				<tr>
-					<td><a href="borderlands2.html"><img src="images/b2_small.jpg" height="120" width="130"></a></td>
-					<td>Borderlands 2</td>
-					<td>Gearbox Software</td>
-					<td>Xbox 360</td>
-					<td>Shooter</td>
-					<td>9</td>
-				</tr>
 
+					<tr>
+						<td><a href="childoflight.html"><img src="images/col_small.jpg" height="120" width="130"/></a></td>
+						<td>Child of Light</td>
+						<td>Ubisoft Montreal</td>
+						<td>PC</td>
+						<td>RPG</td>
+						<td>9.3</td>
+					</tr>
 
-				<tr>
-					<td><a href="childoflight.html"><img src="images/col_small.jpg" height="120" width="130"/></a></td>
-					<td>Child of Light</td>
-					<td>Ubisoft Montreal</td>
-					<td>PC</td>
-					<td>RPG</td>
-					<td>9.3</td>
-				</tr>
-
-				<tr>
-					<td><a href="ftl.html"><img src="images/flt_small.png" height="120" width="130"/></a></td>
-					<td>Faster than Light</td>
-					<td>Subset Games</td>
-					<td>PC</td>
-					<td>Simulator</td>
-					<td>9.6</td>
-				</tr>
-
+					<tr>
+						<td><a href="ftl.html"><img src="images/flt_small.png" height="120" width="130"/></a></td>
+						<td>Faster than Light</td>
+						<td>Subset Games</td>
+						<td>PC</td>
+						<td>Simulator</td>
+						<td>9.6</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 
 		<!-- When you're done, duplicate tdis file.
 		Change only tde table portion of tdis file, replace tde old data points witd tde new ones.
 		Also, replace tde new of tde file to "genres.html", or "ratings.html" -->
+
+		<script type="text/javascript">
+			$(document).ready(function() 
+				{ 
+					$("#myTable").tablesorter( {sortList: [[0,0], [1,0]]} ); 
+				} 
+			);
+		</script>
 
 	</body>
 </html>

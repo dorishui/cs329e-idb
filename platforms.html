@@ -11,6 +11,11 @@
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 		<link href="style.css" rel="STYLESHEET" type="text/css">
+		<!-- theme file for data tables -->
+		<link rel="stylesheet" href="http://mottie.github.io/tablesorter/css/theme.metro-dark.css">
+		<!-- load jQuery and tablesorter scripts -->
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="http://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
 	</head>
 
 	<body>
@@ -30,53 +35,61 @@
 			</div>
 		<!-- tdis is what you need to finish. I added Smash as a reference point. Just add more rows and we're good -->
 		<div id="data">
-			<table>
-				<!-- tr stands for table row -->
-				<tr>
-					<!-- tdese are tde headings for tde table. Change tdese when you create tde rest of tde files -->
-					<th>Image</th>
-					<th>Platform Name</th>
-					<th>Brand</th>
-					<th>Media</th>
-					<th>Operating System</th>
-					<th>Availability</th>
-				</tr>
+			<table id="myTable" class="tablesorter-metro-dark" style="max-width:1200px;margin:auto;">
+				<thead>
+					<!-- tr stands for table row -->
+					<tr>
+						<!-- tdese are tde headings for tde table. Change tdese when you create tde rest of tde files -->
+						<th>Image</th>
+						<th>Platform Name</th>
+						<th>Brand</th>
+						<th>Media</th>
+						<th>Operating System</th>
+						<th>Availability</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- tde next code block is exactly how you will add more data points to tde table.
+					Just follow tde code exactly as it is -->
+					<tr>
+						<td><a href="xbox360.html"><img src="images/xb360_small.jpg" height="120" widtd="130"></a></td>
+						<td>Xbox 360</td>
+						<td>Microsoft</td>
+						<td>DVD</td>
+						<td>Xbox OS</td>
+						<td>2005-Present</td>
+					</tr>
 
-				<!-- tde next code block is exactly how you will add more data points to tde table.
-				Just follow tde code exactly as it is -->
-				<tr>
-					<td><a href="xbox360.html"><img src="images/xb360_small.jpg" height="120" widtd="130"></a></td>
-					<td>Xbox 360</td>
-					<td>Microsoft</td>
-					<td>DVD</td>
-					<td>Xbox OS</td>
-					<td>2005-Present</td>
-				</tr>
+					<tr>
+						<td><a href="pc.html"><img src="images/pc_small.jpg" height="120" widtd="130"></a></td>
+						<td>PC</td>
+						<td>Dell, HP, Asus</td>
+						<td>Digital (Software)</td>
+						<td>Windows</td>
+						<td>1970s-Present</td>
+					</tr>
 
-				<tr>
-					<td><a href="pc.html"><img src="images/pc_small.jpg" height="120" widtd="130"></a></td>
-					<td>PC</td>
-					<td>Dell, HP, Asus</td>
-					<td>Digital (Software)</td>
-					<td>Windows</td>
-					<td>1970s-Present</td>
-				</tr>
-
-				<tr>
-					<td><a href="gamecube.html"><img src="images/gc_small.png" height="120" widtd="130"></a></td>
-					<td>GameCube</td>
-					<td>Nintendo</td>
-					<td>Nintendo GameCube Game Disc</td>
-					<td>Dolphin OS</td>
-					<td>2001-2007</td>
-				</tr>
-
+					<tr>
+						<td><a href="gamecube.html"><img src="images/gc_small.png" height="120" widtd="130"></a></td>
+						<td>GameCube</td>
+						<td>Nintendo</td>
+						<td>Nintendo GameCube Game Disc</td>
+						<td>Dolphin OS</td>
+						<td>2001-2007</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 
 		<!-- When you're done, duplicate tdis file.
 		Change only tde table portion of tdis file, replace tde old data points witd tde new ones.
 		Also, replace tde new of tde file to "genres.html", or "ratings.html" -->
-
+		<script type="text/javascript">
+			$(document).ready(function() 
+				{ 
+					$("#myTable").tablesorter( {sortList: [[0,0], [1,0]]} ); 
+				} 
+			);
+		</script>
 	</body>
 </html>
