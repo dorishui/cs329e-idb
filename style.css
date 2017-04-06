@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #17A589;
 }
 
 /* Custom default button */
@@ -66,6 +66,10 @@ body {
   margin-top: 20;
   margin-bottom: auto;
   font-size:60px;
+}
+
+.masthead-brand > a {
+  color: #fff;
 }
 
 .masthead-nav > li {
