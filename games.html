@@ -13,9 +13,10 @@
 		<link href="style.css" rel="STYLESHEET" type="text/css">
 		<!-- theme file for data tables -->
 		<link rel="stylesheet" href="http://mottie.github.io/tablesorter/css/theme.metro-dark.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
 		<!-- load jQuery and tablesorter scripts -->
 		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-		<script src="http://mottie.github.io/tablesorter/js/jquery.tablesorter.js"></script>
+		<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 	</head>
 
 	<body>
@@ -115,11 +116,11 @@
 		Also, replace tde new of tde file to "genres.html", or "ratings.html" -->
 
 		<script type="text/javascript">
-			$(document).ready(function() 
-				{ 
-					$("#myTable").tablesorter( {sortList: [[0,0], [1,0]]} ); 
-				} 
-			);
+			$(document).ready(function() {
+			    $('#myTable').DataTable( {
+			        "pagingType": "full_numbers"
+			    } );
+			} );
 		</script>
 
 	</body>
