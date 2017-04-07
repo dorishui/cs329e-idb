@@ -40,6 +40,9 @@
 	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 	        <li data-target="#myCarousel" data-slide-to="1"></li>
 	        <li data-target="#myCarousel" data-slide-to="2"></li>
+	        <li data-target="#myCarousel" data-slide-to="3"></li>
+	        <li data-target="#myCarousel" data-slide-to="4"></li>
+	        <li data-target="#myCarousel" data-slide-to="5"></li>
 	      </ol>
 	      <div class="carousel-inner" role="listbox">
 	        <div class="item active">
@@ -50,6 +53,15 @@
 	        </div>
 	        <div class="item">
 	          <img class="third-slide" src="images/FTL.jpg" alt="Third slide">
+	        </div>
+	        <div class="item">
+	          <img class="fourth-slide" src="images/Uncharted4Slide.jpg" alt="Fourth slide">
+	        </div>
+	        <div class="item">
+	          <img class="fifth-slide" src="images/SuperMarioGalaxySlide.jpg" alt="Fifth slide">
+	        </div>
+	        <div class="item">
+	          <img class="sixth-slide" src="images/PokemonBlueSlide.jpg" alt="Sixth slide">
 	        </div>
 	      </div>
 	      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -78,6 +90,15 @@
 			});
 			(".item3").click(function(){
 				("#myCarousel").carousel(2);
+			});
+			(".item4").click(function(){
+				("#myCarousel").carousel(3);
+			});
+			(".item5").click(function(){
+				("#myCarousel").carousel(4);
+			});
+			(".item6").click(function(){
+				("#myCarousel").carousel(5);
 			});
 
 			// Enable Carousel Controls

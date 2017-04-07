@@ -65,11 +65,15 @@ body {
 .masthead-brand {
   margin-top: 20;
   margin-bottom: auto;
-  font-size:60px;
+  font-size:55px;
 }
 
 .masthead-brand > a {
   color: #fff;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
 }
 
 .masthead-nav > li {
@@ -208,7 +212,7 @@ body {
 	float:center; 
 	background-image:url("images/banner.jpg");
 	height:150px;
-	margin-bottom: 70px;
+	margin-bottom: 60px;
 }
 
 #id {
