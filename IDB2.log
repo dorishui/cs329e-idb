@@ -1,0 +1,272 @@
+commit e1f1f5dbc8aef24406e7ccb8c997ddfc53acd923
+Author: Ananya Kaushik <home.ananya@gmail.com>
+Date:   Thu Apr 6 21:46:02 2017 -0500
+
+    Fixed pagination color issues, fixed navbar order, closes #30
+
+commit 7af6400ad864bbfd6ccc6d9825ab1891e5c0524e
+Author: DESKTOP-N5H5QH2\Hyun Song <sshjoo93@gmail.com>
+Date:   Thu Apr 6 20:47:36 2017 -0500
+
+    Changed the column names from platform
+
+commit 709d3c18a97315507c9d686c1f86ca3743863137
+Author: Doris Hui <doris.hui@att.net>
+Date:   Thu Apr 6 19:30:07 2017 -0500
+
+    Minor formatting changes, added slides to carousel
+
+commit 329c2afe751be257c2fc182fdb815671760ba53e
+Author: DESKTOP-N5H5QH2\Hyun Song <sshjoo93@gmail.com>
+Date:   Thu Apr 6 18:08:26 2017 -0500
+
+    Added links from developers to games and from platforms to games
+
+commit b0f7429f4b7630de8d326c25f854ea0fcfc95720
+Author: jdramosf <jd.ramosf@gmail.com>
+Date:   Thu Apr 6 17:23:41 2017 -0500
+
+    Fixed minor issue with Developers' images
+
+commit 46b5708a1d094988a86ee7df6602771d7bb3984a
+Author: jdramosf <jd.ramosf@gmail.com>
+Date:   Thu Apr 6 17:19:01 2017 -0500
+
+    Restricted page length to three rows
+
+commit d684a7f635eed14eb2f47c8672e84c83c9e59e05
+Author: jdramosf <jd.ramosf@gmail.com>
+Date:   Thu Apr 6 17:04:27 2017 -0500
+
+    Added 6 more instances of Games
+
+commit ebf106ac397e9dc83f9ae0023f89d311d27c9ecf
+Author: Doris Hui <doris.hui@att.net>
+Date:   Thu Apr 6 16:44:42 2017 -0500
+
+    Placed search bar and table in same container to fix alignment
+
+commit 6050c3e2d44c014a86cb19bb90af4f3d5a290893
+Author: Doris Hui <doris.hui@att.net>
+Date:   Thu Apr 6 15:32:23 2017 -0500
+
+    Updated About page and Stats.
+
+commit 317b30e2067935eba023bd362415a5cbdbfff7af
+Author: Doris Hui <doris.hui@att.net>
+Date:   Thu Apr 6 15:21:36 2017 -0500
+
+    Fixed styling of details tables, closes #31
+
+commit b93c923f9ae4e902ce4004d1611549cf43c79cfc
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Apr 6 00:13:02 2017 -0500
+
+    Added pagination plugin, closes #26
+
+commit c3db140d07e6219512999115170a7cc7d6e55a1c
+Author: Nolan Bentley <nbentley@utexas.edu>
+Date:   Wed Apr 5 23:38:35 2017 -0500
+
+    Small HTML fix
+
+commit 299dc114c2b169752a798dde3b49e6fe6be5f9b6
+Author: Nolan Bentley <nbentley@utexas.edu>
+Date:   Wed Apr 5 23:09:20 2017 -0500
+
+    updated HTML data
+
+commit 69b2834648d2a3b0f834a54c7a1f485d731ea48a
+Author: Ananya Kaushik <home.ananya@gmail.com>
+Date:   Wed Apr 5 12:50:18 2017 -0500
+
+    Changed the appearance of the About page, closes #29
+
+commit 91bc35156c68a100fd23d05702db698d0f1d25f6
+Author: DESKTOP-N5H5QH2\Hyun Song <sshjoo93@gmail.com>
+Date:   Tue Apr 4 22:12:32 2017 -0500
+
+    Added JavaScript for slide show
+    
+    040417 Hyun Joo Song
+
+commit efb510560e8732eff95e910c6120d4ae99ca4e3d
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Tue Apr 4 22:05:41 2017 -0500
+
+    Added sortability function, closes #22
+
+commit cb365f9b616c3b83c627da96742bc6ce47a9f4bd
+Author: Ananya Kaushik <home.ananya@gmail.com>
+Date:   Tue Apr 4 14:41:09 2017 -0500
+
+    Made the images in the slideshow responsive
+
+commit 56074b3aa627809af8fb5370f78beecc14015e24
+Author: Ananya Kaushik <home.ananya@gmail.com>
+Date:   Tue Apr 4 14:37:47 2017 -0500
+
+    Minor changes to about page, index
+
+commit 4b8bf9c4e07b34832668ff1acd1b6313d2312c8b
+Author: Ananya Kaushik <home.ananya@gmail.com>
+Date:   Tue Apr 4 14:37:01 2017 -0500
+
+    Minor changes to about page, index
+
+commit ffc97f2eac149750837c1c4266fd9f33310178f6
+Author: Doris Hui <doris.hui@att.net>
+Date:   Mon Apr 3 21:59:06 2017 -0500
+
+    Implemented Bootstrap and improved splash page and navigation. Closes #21, closes #24.
+
+commit 1003320c9bd6eb1b9bac1f27b0d8fc1f25529de5
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Thu Mar 23 21:59:45 2017 -0500
+
+    Fixed
+
+commit b661153252bcd63118a38d8d4f19f5c7987b530c
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Thu Mar 23 21:44:47 2017 -0500
+
+    Aligned Stat table
+
+commit 17e0fa851279af7080d6e63310913c43bf873530
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Thu Mar 23 21:33:59 2017 -0500
+
+    Fixed about.html formatting
+
+commit f44b1bea8c45b1e4d28dcb97717f1b73f5af85b9
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 19:20:53 2017 -0500
+
+    Closes #9, closes #10, closes #17, closes #18
+
+commit 83e40b784d40a26b39842377f435d671a2286c37
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 19:13:35 2017 -0500
+
+    Closes issue #20
+
+commit c1a104394e324d34beb15d94fb473398191329b8
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 19:01:56 2017 -0500
+
+    Closes issue #9 and fixes other minor details
+
+commit 54fad4867faf2cce1d00417c5b0b4a113174c33e
+Author: DESKTOP-N5H5QH2\Hyun Song <sshjoo93@gmail.com>
+Date:   Thu Mar 23 18:10:12 2017 -0500
+
+    Edited about page and added more pictures
+
+commit 513bdef71b681813c531fcac369fd45cb98ad44c
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 17:54:40 2017 -0500
+
+    Closes #19 issue
+
+commit b869baa0efd459fa020ccabff75ec8453faece4c
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 13:55:33 2017 -0500
+
+    Added image for banner
+
+commit 9754fa704280cdf1a24ce117b959289a9b7eaa46
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Thu Mar 23 13:50:43 2017 -0500
+
+    Renamed files for accessibility, fixed navbar, added banner, and other minor changes
+
+commit 4a029dc49348cb3211a55777e3892f2441594148
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Thu Mar 23 00:44:51 2017 -0500
+
+    Updated About.html page
+
+commit 31b7f5b705b23faefeb7192b71b7b984c778da9a
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Thu Mar 23 00:24:49 2017 -0500
+
+    Added About.html page, edited CSS
+
+commit bb9005dfb813869e6cf632162ea0bef49ad64335
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Wed Mar 22 23:05:39 2017 -0500
+
+    Fixed Navigation bar
+
+commit a372aae0cb421e1c3ba880e33d89c0c0e24c35de
+Author: Bella Shah <bellashah@wireless-10-148-28-182.public.utexas.edu>
+Date:   Wed Mar 22 22:57:27 2017 -0500
+
+    Finished all linkable pages
+
+commit 8c44bc4bdfa99dc2e949e814a8ef67ac94f6f94c
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Wed Mar 22 15:02:35 2017 -0500
+
+    Modified models and added rest of data
+
+commit afc383bbd360cfaae5029b2a0e88a2991a66667b
+Author: Bella Shah <bellashah@wireless-10-147-84-52.public.utexas.edu>
+Date:   Wed Mar 22 00:50:50 2017 -0500
+
+    Added pages for COL and FTL
+
+commit 3e24c8fddb967d9d3eca622fd66a8cfa99ec9103
+Author: DESKTOP-N5H5QH2\Hyun Song <sshjoo93@gmail.com>
+Date:   Tue Mar 21 19:27:26 2017 -0500
+
+    032117-Ananya, Hyunjoo
+    
+    Changes in index
+
+commit 389075c286fd61a22ff77b497797120d8d1fd10e
+Author: Bella Shah <bellashah@wireless-10-147-84-52.public.utexas.edu>
+Date:   Tue Mar 21 19:17:25 2017 -0500
+
+    Completed CSS and html for model template
+
+commit b778d2ec8057e3cd770068451041814d07968a50
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Tue Mar 21 15:55:10 2017 -0500
+
+    Added initial website structure
+
+commit 1b43b0a047d0b25e556fd3ba203f8d9740100692
+Merge: e0c7433 a266697
+Author: Juan Ramos <jdramosf@users.noreply.github.com>
+Date:   Sat Mar 18 15:58:51 2017 -0500
+
+    Merge pull request #7 from dorishui/dev
+    
+    Added dev brach with index.html file
+
+commit a266697f5a83c49a1476273a988ee5b4efe57460
+Author: Juan Ramos <jd.ramosf@gmail.com>
+Date:   Sat Mar 18 15:55:20 2017 -0500
+
+    Added dev brach with index.html file
+
+commit e0c7433635652d113d430ac0772c2bd91289757f
+Author: Juan Ramos <jdramosf@users.noreply.github.com>
+Date:   Sat Mar 18 15:37:07 2017 -0500
+
+    Update CNAME
+    
+    Changed domain name
+
+commit a19028264c6c234198987f030d25f322712e069d
+Author: Doris Hui <dorishui@users.noreply.github.com>
+Date:   Sat Mar 18 15:24:11 2017 -0500
+
+    Create CNAME
+
+commit e15a47641f0cda589ae90f24c1cd70741ce054b0
+Author: Doris Hui <dorishui@users.noreply.github.com>
+Date:   Thu Mar 9 16:30:20 2017 -0600
+
+    Initial commit
