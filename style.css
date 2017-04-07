@@ -293,3 +293,32 @@ tr:nth-child(even) {
   max-width: 100%;
   height: auto;
 }
+
+div.dataTables_length{
+    background-color: #333;
+    color: rgba(255,255,255,.75) !important;
+}
+div.dataTables_length select{
+    color: #333 !important;
+}
+ 
+div.dataTables_filter {
+    color: rgba(255,255,255,.75) !important;
+}
+div.dataTables_filter input {
+    color: #333 !important;
+}
+ 
+div.dataTables_info {
+    background-color: #333;
+    color: rgba(255,255,255,.75) !important;
+}
+ 
+div.dataTables_paginate, .dataTables_wrapper, .paging_full_numbers, .paginate_button, .paginate_button current, .paginate_button current:hover {
+    background-color: #333;
+    color: rgba(255,255,255,.75) !important;
+}
+
+.paginate_button {
+  background-color: rgba(255,255,255,.75);
+}
