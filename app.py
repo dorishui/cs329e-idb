@@ -33,4 +33,4 @@ def platforms():
 	return render_template('platforms.html')
 	
 if __name__ == '__main__':
-	app.run() # Run application
+	app.run('45.55.148.107','80') # Run application
