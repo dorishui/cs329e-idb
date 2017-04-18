@@ -24,12 +24,12 @@
 			<div class="masthead clearfix" style="position: absolute">
 				<div class="inner">
 					<nav>
-						<h3 class="masthead-brand"><a href="templates/index.html">Video Game Library</a></h3>
+						<h3 class="masthead-brand"><a href={{ url_for('index') }}>Video Game Library</a></h3>
 						<ul class = "nav masthead-nav">
-							<li><a href="templates/games.html">Games</a></li>
-							<li><a href="templates/platforms.html">Platforms</a></li>
-							<li class = "active"><a href="templates/developers.html">Developers</a></li>
-							<li><a href="templates/about.html">About</a></li>
+							<li><a href={{ url_for('games') }}>Games</a></li>
+							<li><a href={{ url_for('platforms') }}>Platforms</a></li>
+							<li class = "active"><a href={{ url_for('developers') }}>Developers</a></li>
+							<li><a href={{ url_for('about') }}>About</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -55,7 +55,7 @@
 					<!-- tde next code block is exactly how you will add more data points to tde table.
 					Just follow tde code exactly as it is -->
 					<tr>
-						<td><a href="templates/gearbox.html"><img src="static/images/gb_small.png" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('gearbox') }}><img src="static/images/gb_small.png" height="120" widtd="130"></a></td>
 						<td>Gearbox Software</td>
 						<td>Frisco</td>
 						<td>US</td>
@@ -64,7 +64,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="templates/ubisoft.html"><img src="static/images/us_small.jpeg" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('ubisoft') }}><img src="static/images/us_small.jpeg" height="120" widtd="130"></a></td>
 						<td>Ubisoft</td>
 						<td>Montreuil-sous-Bois</td>
 						<td>France</td>
@@ -73,7 +73,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="templates/subset.html"><img src="static/images/Subset.jpg" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('subset') }}><img src="static/images/Subset.jpg" height="120" widtd="130"></a></td>
 						<td>Subset Games</td>
 						<td>Shanghai</td>
 						<td>China</td>
@@ -82,7 +82,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="templates/NaughtyDog.html"><img src="static/images/NaughtyDog.png" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('NaughtyDog') }}><img src="static/images/NaughtyDog.png" height="120" widtd="130"></a></td>
 						<td>Naughty Dog</td>
 						<td>Santa Monica</td>
 						<td>US</td>
@@ -91,7 +91,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="templates/Nintendo.html"><img src="static/images/Nintendo.jpg" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('Nintendo') }}><img src="static/images/Nintendo.jpg" height="120" widtd="130"></a></td>
 						<td>Nintendo</td>
 						<td>Kyoto</td>
 						<td>Japan</td>
@@ -100,7 +100,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="templates/GameFreak.html"><img src="static/images/GameFreak.jpg" height="120" widtd="130"></a></td>
+						<td><a href={{ url_for('GameFreak') }}><img src="static/images/GameFreak.jpg" height="120" widtd="130"></a></td>
 						<td>Game Freak</td>
 						<td>Tokyo</td>
 						<td>Japan</td>

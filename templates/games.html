@@ -10,7 +10,7 @@
 		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-		<link href="style.css" rel="STYLESHEET" type="text/css">
+		<link href="static/css/style.css" rel="STYLESHEET" type="text/css">
 		<!-- theme file for data tables -->
 		<link rel="stylesheet" href="http://mottie.github.io/tablesorter/css/theme.metro-dark.css">
 		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
@@ -24,12 +24,12 @@
 			<div class="masthead clearfix" style="position: absolute">
 				<div class="inner">
 					<nav>
-						<h3 class="masthead-brand"><a href="index.html">Video Game Library</a></h3>
+						<h3 class="masthead-brand"><a href={{ url_for('index') }}>Video Game Library</a></h3>
 						<ul class = "nav masthead-nav">
-							<li class = "active"><a href="games.html">Games</a></li>
-							<li><a href="platforms.html">Platforms</a></li>
-							<li><a href="developers.html">Developers</a></li>
-							<li><a href="about.html">About</a></li>
+							<li class = "active"><a href={{ url_for('games') }}>Games</a></li>
+							<li><a href={{ url_for('platforms') }}>Platforms</a></li>
+							<li><a href={{ url_for('developers') }}>Developers</a></li>
+							<li><a href={{ url_for('about') }}>About</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -56,7 +56,7 @@
 					<!-- tde next code block is exactly how you will add more data points to tde table.
 					Just follow tde code exactly as it is -->
 					<tr>
-						<td><a href="borderlands2.html"><img src="images/b2_small.jpg" height="120" width="130"></a></td>
+						<td><a href={{ url_for('borderlands2') }}><img src="static/images/b2_small.jpg" height="120" width="130"></a></td>
 						<td>Borderlands 2</td>
 						<td>Gearbox Software</td>
 						<td>Xbox 360</td>
@@ -66,7 +66,7 @@
 
 
 					<tr>
-						<td><a href="childoflight.html"><img src="images/col_small.jpg" height="120" width="130"/></a></td>
+						<td><a href={{ url_for('childoflight') }}><img src="static/images/col_small.jpg" height="120" width="130"/></a></td>
 						<td>Child of Light</td>
 						<td>Ubisoft Montreal</td>
 						<td>PC</td>
@@ -75,7 +75,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="ftl.html"><img src="images/flt_small.png" height="120" width="130"/></a></td>
+						<td><a href={{ url_for('ftl') }}><img src="static/images/flt_small.png" height="120" width="130"/></a></td>
 						<td>Faster than Light</td>
 						<td>Subset Games</td>
 						<td>PC</td>
@@ -84,7 +84,7 @@
 					</tr>
 
 					<tr>
-						<td><a href="Uncharted4.html"><img src="images/Uncharted4.jpg" height="120" width="130"></a></td>
+						<td><a href={{ url_for('Uncharted4') }}><img src="static/images/Uncharted4.jpg" height="120" width="130"></a></td>
 						<td>Uncharted 4: A Thief's End</td>
 						<td>Naughty Dog</td>
 						<td>PlayStation 4</td>
@@ -92,7 +92,7 @@
 						<td>9.3</td>
 
 					<tr>
-						<td><a href="SuperMarioGalaxy.html"><img src="images/SuperMarioGalaxy.jpg" height="120" width="130"></a></td>
+						<td><a href={{ url_for('SuperMarioGalaxy') }}><img src="static/images/SuperMarioGalaxy.jpg" height="120" width="130"></a></td>
 						<td>Super Mario Galaxy</td>
 						<td>Nintendo</td>
 						<td>Wii</td>
@@ -101,7 +101,7 @@
 					</tr>
 					
 					<tr>
-						<td><a href="PokemonBlue.html"><img src="images/PokemonBlue.jpg" height="120" width="130"></a></td>
+						<td><a href={{ url_for('PokemonBlue') }}><img src="static/images/PokemonBlue.jpg" height="120" width="130"></a></td>
 						<td>Pokemon Blue</td>
 						<td>Game Freak</td>
 						<td>Gameboy</td>
