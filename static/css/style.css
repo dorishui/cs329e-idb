@@ -324,6 +324,5 @@ div.dataTables_paginate, .dataTables_wrapper, .paging_full_numbers, .paginate_bu
 }
 
 .about_info {
-  margin: auto;
-  width: 30%;
+  max-width: 30%;
 }
