@@ -322,3 +322,7 @@ div.dataTables_paginate, .dataTables_wrapper, .paging_full_numbers, .paginate_bu
 .paginate_button {
   background-color: rgba(255,255,255,.75);
 }
+
+.about_info {
+  max-width: 30%;
+}
