@@ -238,10 +238,6 @@ td, th {
 	padding:8px;
 }
 
-tr:nth-child(even) {
-	background-color:#F9F9F9;
-}
-
 .break-long-words {
   overflow-wrap: break-word;
   word-wrap: break-word;
