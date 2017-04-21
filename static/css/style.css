@@ -264,7 +264,7 @@ tr:nth-child(even) {
   min-height: 1px;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   font-size:12px;
 }
 
@@ -323,7 +323,19 @@ div.dataTables_paginate, .dataTables_wrapper, .paging_full_numbers, .paginate_bu
   background-color: rgba(255,255,255,.75);
 }
 
-.about_info {
-  margin: auto;
-  width: 30%;
+.noBorder {
+    border:none !important;
+    width: 50%;
+}
+
+.noColor {
+  background-color: #333 !important;
+}
+
+.td1 {
+  text-align: right;
+}
+
+.td2 {
+  text-align: left;
 }
